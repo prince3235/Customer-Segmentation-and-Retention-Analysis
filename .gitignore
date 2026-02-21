@@ -1,0 +1,29 @@
+# Data Files (Do not commit large datasets)
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.xls
+
+# Keep empty data folders in the repository
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code & OS System Files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore AI temporary files
+tmpclaude*
