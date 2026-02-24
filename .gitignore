@@ -1,11 +1,11 @@
-# Data Files (Do not commit large datasets)
+# Data Files
 data/raw/*
 data/processed/*
 *.csv
 *.xlsx
 *.xls
 
-# Keep empty data folders in the repository
+# Keep empty folders for structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
@@ -24,6 +24,4 @@ env/
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Ignore AI temporary files
 tmpclaude*
