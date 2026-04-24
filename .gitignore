@@ -1,27 +1,50 @@
-# Data Files
-data/raw/*
-data/processed/*
+# ╔══════════════════════════════════════╗
+# ║  Customer Segmentation .gitignore   ║
+# ╚══════════════════════════════════════╝
+
+# ── Data (large files & sensitive) ────
+data/
 *.csv
 *.xlsx
-*.xls
+*.parquet
 
-# Keep empty folders for structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# ── ML Model Artifacts ────────────────
+reports/churn_xgb_model.pkl
+reports/pipeline.log
 
-# Python & Virtual Environments
+# ── Python ────────────────────────────
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual Environment ───────────────
 venv/
 env/
 .env
+.venv/
 
-# Jupyter Notebooks
+# ── Jupyter Notebooks ─────────────────
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# VS Code & OS System Files
+# ── IDE & OS ──────────────────────────
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
-tmpclaude*
+*.swp
+*.swo
+
+# ── Streamlit Cache ───────────────────
+.streamlit/
+
+# ── Test & Coverage ───────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
