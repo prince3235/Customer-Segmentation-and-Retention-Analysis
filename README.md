@@ -1,4 +1,4 @@
-# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&width=700&lines=🧠+Customer+Segmentation+%26+Retention+Analysis;End-to-End+Machine+Learning+Pipeline" alt="Typing SVG" />
+# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&width=700&lines=Customer+Segmentation+and+Retention+Analysis;End-to-End+Machine+Learning+Pipeline" alt="Typing SVG" />
 
 <div align="center">
 
