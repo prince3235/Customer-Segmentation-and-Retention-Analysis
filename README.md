@@ -1,13 +1,4 @@
-# ```console
-[root@prince-server ~]# ./init_pipeline.sh --target customer_intelligence
-
-> Initializing End-to-End ML Pipeline...
-> Loading Online Retail Dataset (500K+ records)... [OK]
-> Running RFM Segmentation... [OK]
-> Training XGBoost Churn Model... [OK]
-> Deploying Streamlit Dashboard... [LIVE: port 8501]
-
-[SUCCESS] Customer Intelligence Hub is now online.
+# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&width=900&lines=Customer+Segmentation+and+Retention+Analysis;End-to-End+Machine+Learning+Pipeline" alt="Typing SVG" />
 
 <div align="center">
 
